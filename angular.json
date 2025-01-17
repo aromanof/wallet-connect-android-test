@@ -28,7 +28,7 @@
               {
                 "glob": "_redirects",
                 "input": "src",
-                "output": "/"
+                "output": "./"
               }
             ],
             "styles": [
@@ -50,7 +50,11 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "outputPath": {
+                "base": "dist/wallet-connect-angular-test",
+                "browser": ""
+              }
             },
             "development": {
               "optimization": false,
